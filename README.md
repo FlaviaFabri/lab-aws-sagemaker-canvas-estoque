@@ -1,3 +1,10 @@
+Meu nome é Flavia e este projeto é baseado no Lab do curso da DIO Machine Learning para iniciantes.
+Será feito um treinamento de um modelo baseado em uma base de dados de estoque de produtos que possuem os dados de preços, promoções, estoque, sendo o campo estoque variável. 
+A partir do treinamento será criado um modelo de previsão de estoque e alguns insights serão gerados a partir  deste modelo de previsão.
+
+
+Abaixo estão as descrições do curso da DIO . Os datasets deste repositório foram forneciddos pelo curso da DIO.
+
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
 Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!

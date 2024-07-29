@@ -5,9 +5,9 @@ Meu nome é Flavia e este projeto é baseado no Lab do curso da DIO Machine Lear
 
 Neste Lab foi feito um modelo de previsão de estoque inteligente usando o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). 
 
-O modelo criado foi feito com uma base de dados de estoque de produtos que possue os campos: preço, promoção, estoque, sendo o campo estoque renovável e campo promoção preenchido com 1 ou 0. 
+O modelo criado foi feito com uma base de dados de estoque de produtos que possue os campos: Id-produto, preço, flag-promocao, data-evento (data da atualização do registro),qtd-estoque, sendo o campo qtd-estoque renovável e o campo flag-promocao preenchido com 1 ou 0. 
 
-A partir do treinamento dele foi criado um modelo de previsão de estoque e alguns insights serão gerados a partir  deste modelo de previsão.
+Com o treinamento, foi criado um modelo de previsão de estoque e alguns insights foram gerados a partir  deste modelo de previsão.
 
 
 ## 🚀 Passo a Passo

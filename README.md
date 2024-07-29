@@ -14,7 +14,7 @@ A partir do treinamento dele foi criado um modelo de previsão de estoque e algu
 
 ### 1. Selecionar Dataset
 
--   O dataset escolhido foi o xxx disponibilizado pela DIO .
+-   O dataset escolhido foi o dataset-1000-com-preco-variavel-e-renovacao-estoque disponibilizado pela DIO .
 -   Foi feito upload do arquivo no sagemaker canvas  e salvo com o nome estoque-lab-dio.
 -   Este dataset será usado para construir o modelo de estoque inteligente.
   

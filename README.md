@@ -10,8 +10,6 @@ treinamento de um modelo baseado em uma base de dados de estoque de produtos que
 A partir do treinamento será criado um modelo de previsão de estoque e alguns insights serão gerados a partir  deste modelo de previsão.
 
 
-Abaixo estão as descrições do curso da DIO . Os datasets deste repositório foram forneciddos pelo curso da DIO.
-
 
 ## 🚀 Passo a Passo
 

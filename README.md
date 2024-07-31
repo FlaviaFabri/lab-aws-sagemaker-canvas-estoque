@@ -5,9 +5,9 @@ Meu nome é Flavia e este Laboratório foi feito com o objetivo de realizar a at
 
 Neste Lab foi criado um modelo de previsão de estoque inteligente, usando a ferramenta SageMaker Canvas da AWS que gera modelos em  Machine Learning (ML). 
 
-O modelo criado foi feito a partir de uma base de dados de estoque de produtos que possue os campos: ID_PRODUTO, PRECO, FLAG_PROMOCAO, DATA_EVENTO (data da atualização do registro),QUANTIDADE_ESTOQUE, sendo o campo QUANTIDADE_ESTOQUE renovável e o campo FLAG_PROMOCAO preenchido com 1 (promoção) ou 0 (sem promoção). 
+O modelo criado foi feito a partir de uma base de dados de estoque de produtos que possue os campos: ID_PRODUTO, PRECO, FLAG_PROMOCAO, DATA_EVENTO (data da atualização do registro),QUANTIDADE_ESTOQUE, sendo o campo QUANTIDADE_ESTOQUE renovável e o campo FLAG_PROMOCAO, preenchido com 1 (promoção) ou 0 (sem promoção). 
 
-Com o treinamento, foi criado um modelo de previsão de estoque e alguns insights foram gerados a partir da análise do modelo de previsão.
+Com o treinamento, foi criado um modelo de previsão de estoque e alguns insights foram gerados a partir da análise das previsões.
 
 
 ## 🚀 Passo a Passo

@@ -5,7 +5,7 @@ Meu nome é Flavia e este Laboratório foi feito com o objetivo de realizar a at
 
 Neste Lab foi criado um modelo de previsão de estoque inteligente, usando a ferramenta SageMaker Canvas da AWS que gera modelos em  Machine Learning (ML). 
 
-O modelo criado foi feito a partir de uma base de dados de estoque de produtos que possue os campos: ID_PRODUTO, PRECO, FLAG_PROMOCAO, DATA_EVENTO (data da atualização do registro),QUANTIDADE_ESTOQUE, sendo o campo qtd-estoque renovável e o campo FLAG_PROMOCAO preenchido com 1 (promoção) ou 0 (sem promoção). 
+O modelo criado foi feito a partir de uma base de dados de estoque de produtos que possue os campos: ID_PRODUTO, PRECO, FLAG_PROMOCAO, DATA_EVENTO (data da atualização do registro),QUANTIDADE_ESTOQUE, sendo o campo QUANTIDADE_ESTOQUE renovável e o campo FLAG_PROMOCAO preenchido com 1 (promoção) ou 0 (sem promoção). 
 
 Com o treinamento, foi criado um modelo de previsão de estoque e alguns insights foram gerados a partir da análise do modelo de previsão.
 
@@ -22,11 +22,11 @@ Com o treinamento, foi criado um modelo de previsão de estoque e alguns insight
 ### 2. Construção/Treinamento:
 
 -   As variáveis de entrada foram: quantidade de estoque (campo target/campo que será feita a previsão).
--   A quantidade de estoque que será prevista no modelo foi feita para um dia após a última atualização de estoque de cada item no dataset.
+-   A quantidade de estoque que é prevista pelo modelo foi definida prever essa quantidade para um dia após a última atualização de estoque de cada item no dataset.
 -   O treinamento do modelo foi feito pelos métodos QUICK BUILD e STANDAR BUILD.
 -   O modelo gerado pelo método QUICK BUILD foi escolhido para fazer a previsão de estoque.
 
-### 3. Analise
+### 3. Análise
 
 -  Após o treinamento pelo método QUICK BUILD , foram verificadas as seguintes métricas, que serão rapidamente analisadas:
 
@@ -62,7 +62,7 @@ Com o treinamento, foi criado um modelo de previsão de estoque e alguns insight
 
 -  Nesta etapa, foram geradas previsões com todos os itens do dataset utilizando o modelo escolhido. O arquivo gerado com as previsões de todos os itens é o
     previsoes-de-todos-produtos.csv.
--  Também foram geradas SINGLE PREDICTIONS (previsões simples) de alguns itens para poder ser possível verificar uma visualização individual de cada produto e, assim, ajudar a     fazer uma análise crítica das previsões de forma geral.
+-  Também foram geradas SINGLE PREDICTIONS (previsões individual) de alguns itens para poder ser possível verificar uma visualização individual de cada produto e, assim,           ajudar a fazer uma análise crítica das previsões de forma geral.
 -  Com a observação dos gráricos gerados pelas previsiões individuais e dos dados do arquivo de previsões de todos os itens, foi possíel verificar que a maioria dos itens         apresentam um queda na quantidade de estoque indicada na previsão dos percentis 50 e 90, como é apresentado na figura abaixo, que mostra o item 1008.   
 
 ![single_prediction_results(1008)](https://github.com/user-attachments/assets/f5ce66c1-7f26-41b6-bb85-cededbcd511f)

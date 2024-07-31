@@ -1,4 +1,4 @@
-Meu nome é Flavia e este Laboratório foi feito com o objetivo de realizar a atividade de Lab do curso da DIO "Machine Learning para Iniciantes".
+Meu nome é Flavia Fabri e este Laboratório foi feito com o objetivo de realizar a atividade de Lab do curso da DIO "Machine Learning para Iniciantes".
 
 
 # 📊 LAB Previsão de Estoque Inteligente na AWS 

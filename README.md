@@ -79,7 +79,7 @@ Com o treinamento, foi criado um modelo de previsão de estoque e alguns insight
  
  ![single_prediction_results(1022)](https://github.com/user-attachments/assets/e2d024a0-f730-4188-bc6c-9aaebc9106db)
 
- Para o caso do item 1022, é possível verificar que a quantidade de estoque para todas métricas estão aumentando, o que torna possível inferir que o produto está sendo mais demandado em relação à demanda histórica. A demanda histórica dele é 9 e os percentis P10,P50 e P90 apresentam os seguintes valores: 1,672; 14,725 ; 99,999).
+ Para o caso do item 1022, é possível verificar que a quantidade de estoque para todas métricas está aumentando, o que torna possível inferir que o produto está sendo mais demandado em relação à demanda histórica. A demanda histórica dele é 9 e os percentis P10,P50 e P90 apresentam os seguintes valores: 1,672; 14,725 ; 99,999).
 
  OBS.: Os gráficos gerados pela opção previsão individual do produto apresentam os mesmos percentis que estão no arquivo previsão-estoque-de-todos-produtos.csv.
 
